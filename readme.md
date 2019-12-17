@@ -1,4 +1,4 @@
-# My machine learning practices
+# My python practices
 
 ## prerequisite
 

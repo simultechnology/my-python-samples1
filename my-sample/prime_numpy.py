@@ -4,7 +4,7 @@
 import os
 import numpy as np
 import math
-np.set_printoptions(threshold='nan')
+np.set_printoptions(threshold=None)
 
 
 # 素数判定関数
@@ -28,6 +28,4 @@ primes_tf = pvec(ay)
 
 # 素数だけを抽出して表示
 primes = np.extract(primes_tf, ay)
-print primes
-
-
+print(primes)
